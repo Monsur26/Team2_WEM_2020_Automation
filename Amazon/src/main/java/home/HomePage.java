@@ -27,6 +27,9 @@ public class HomePage extends WebAPI {
     @FindBy(how = How.ID,using = addToCartWebElement) public WebElement addToCart;
     @FindBy(how = How.ID,using = checkoutWebElement) public WebElement checkout;
 
+    @FindBy(how=How.XPATH,using = bestSellerWebElement) public WebElement bestSeller;
+    @FindBy(how = How.CSS,using = bestSellerBooksWebElement) public WebElement bestSellerBooks;
+
 
     // Steps:1: // Enter keyword in search box
     public  void enterKeyWord(String keyword){
@@ -77,6 +80,20 @@ public class HomePage extends WebAPI {
         sleepFor(3);
         cleanUp();
     }
+
+    public void bestSellerProduct(){
+        bestSeller.click();
+    }
+
+    public void checkBestSellerBooks() throws InterruptedException {
+        getWindowsMaximize();
+        bestSeller.click();
+        sleepFor(3);
+        bestSellerBooks.click();
+
+    }
+
+
 
 public void validateSearchProduct(){
 

@@ -600,6 +600,9 @@ public class WebAPI {
         String text = webElement.getText();
         return text;
     }
+    public void getWindowsMaximize(){
+        driver.manage().window().maximize();
+    }
 
 
 }

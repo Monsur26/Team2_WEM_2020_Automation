@@ -12,6 +12,9 @@ public class HomePageWebElements {
         public static final String checkoutWebElement="hlb-ptc-btn-native";
         public static final String shopLinksWebElements="#nav-xshop > a";
 
+        public static final String bestSellerWebElement="//*[@id=\"nav-xshop\"]/a[1]";
+        public static final String bestSellerBooksWebElement="#zg_browseRoot > ul > li:nth-child(11) > a";
+
 
 
 

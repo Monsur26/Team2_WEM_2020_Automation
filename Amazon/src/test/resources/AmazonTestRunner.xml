@@ -21,7 +21,10 @@
 
     <test name="HomePage">
     <classes>
-        <class name="hometest.HomePageTest"></class>
+<!--        <class name="hometest.HomePageTest"></class>-->
+<!--        <class name="hometest.HomePageTest01"></class>-->
+<!--        <class name="hometest.HomePageTestBestSeller"></class>-->
+        <class name="hometest.BestSellerBooksTest"></class>
 
 
 
