@@ -71,11 +71,75 @@ public class HomePage extends WebAPI {
 
     public void searchProduct() throws InterruptedException {
        // setUp("windows","chrome","https://www.amazon.com/");
-        enterKeyWord("I Phone 11 pro");
+        enterKeyWord("FC Barcelona");
         sleepFor(3);
         clickSearchButton();
         sleepFor(3);
         cleanUp();
+    }
+
+    public void searchProductSelect() throws InterruptedException {
+        enterKeyWord("Hand Sanitizer");
+        sleepFor(2);
+        clickSearchButton();
+        sleepFor(2);
+        clickProduct();
+        cleanUp();
+
+
+    }
+    public void searchProductSelectqty() throws InterruptedException {
+        enterKeyWord("Hand Sanitizer");
+        sleepFor(2);
+        clickSearchButton();
+        sleepFor(2);
+        clickProduct();
+        sleepFor(2);
+        clickQty();
+        sleepFor(2);
+        doSelectQty();
+        sleepFor(1);
+        cleanUp();
+
+
+    }
+
+    public void addToCart() throws InterruptedException {
+        enterKeyWord("Hand Sanitizer");
+        sleepFor(2);
+        clickSearchButton();
+        sleepFor(2);
+        clickProduct();
+        sleepFor(2);
+        clickQty();
+        sleepFor(2);
+        doSelectQty();
+        sleepFor(2);
+        clickAddToCart();
+        cleanUp();
+
+    }
+    public void checkout() throws InterruptedException {
+        enterKeyWord("Hand Sanitizer");
+        sleepFor(2);
+        clickSearchButton();
+        sleepFor(2);
+        clickProduct();
+        sleepFor(2);
+        clickQty();
+        sleepFor(2);
+        doSelectQty();
+        sleepFor(2);
+        clickAddToCart();
+        sleepFor(2);
+        checkout();
+        cleanUp();
+
+    }
+
+    public void findingLinksHomePage(){
+        System.out.println("Number of links on top menu of HomePage: "+shopLinks.size());
+
     }
 
 public void validateSearchProduct(){

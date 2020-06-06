@@ -2,9 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 
-<suite name="UHC Automation Script" parallel="false">
+<suite name="JetBlue Automation Script" parallel="false">
 
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="Flase"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <!--<parameter name="cloudEnvName" value="saucelab"/>-->
     <parameter name="os" value="windows"/>
@@ -13,7 +13,7 @@
 <!--        <parameter name="os_version" value="Sierra"/>-->
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="83"/>
-    <parameter name="url" value="https://www.uhc.com"/>
+    <parameter name="url" value="https://www.jetblue.com"/>
 
 
 
@@ -21,6 +21,11 @@
 
     <test name="HomePage">
     <classes>
+<!--        <class name="hometest.HomeTest1"></class>-->
+<!--        <class name="hometest.HomeTest2"></class>-->
+<!--        <class name="hometest.HomeTest3"></class>-->
+        <class name="hometest.HomeTest4"></class>
+
 
 
 
