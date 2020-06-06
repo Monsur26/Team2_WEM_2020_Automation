@@ -2,6 +2,7 @@ package home;
 
 import common.WebAPI;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
 import static webelements.HomePageWebElements.*;
@@ -14,6 +15,9 @@ public class HomePage extends WebAPI {
     @FindBy(xpath = USNewsLinkTopNewsBarWebElement)public WebElement USNewsLinkTopNews;
     @FindBy(xpath = videosLinkWebElements)public WebElement videosLink;
     @FindBy(xpath = videosLinkSelectedWebElements)public WebElement selectedvideoLink;
+    @FindBy(css = userAccountButtonWebElement)public WebElement userAcc;
+    @FindBy(xpath = emailWebElement)public WebElement email;
+    @FindBy(xpath = passwordWebElement)public WebElement password;
 
     public void menuBoxGenerating(){
         menuBox.click();
@@ -37,6 +41,9 @@ public class HomePage extends WebAPI {
     public void videoSelectedLink(){
         selectedvideoLink.click();
     }
+    public void userACC(){userAcc.click();}
+    public void emaillogin(String emaillog){email.sendKeys(emaillog);}
+    public void passwordadd(String pass){ password.sendKeys(pass);}
 
 
 
@@ -78,6 +85,20 @@ public class HomePage extends WebAPI {
         videoSelectedLink();
         sleepFor(10);
         cleanUp();
+    }
+    public void hoverToUserAcc(){
+        Actions actions=new Actions(driver);
+        actions.moveToElement(userAcc).perform();
+    }
+
+    public void useraccdetails() throws InterruptedException {
+        userACC();
+        sleepFor(2);
+        emaillogin("DJT@WH.com");
+        sleepFor(2);
+        passwordadd("MAGA");
+        cleanUp();
+
     }
 
 
