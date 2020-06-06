@@ -24,7 +24,20 @@
 <!--        <class name="hometest.HomePageTest"></class>-->
 <!--        <class name="hometest.HomePageTest01"></class>-->
 <!--        <class name="hometest.HomePageTestBestSeller"></class>-->
-        <class name="hometest.BestSellerBooksTest"></class>
+<!--        <class name="hometest.BestSellerBooksTest"></class>-->
+<!--        <class name="hometest.NewReleasedMovieTest"></class>-->
+<!--        <class name="hometest.AmazonProductSearchTest"></class>-->
+<!--        <class name="hometest.SelectProductTest"></class>-->
+<!--        <class name="hometest.ProductAddToCart"></class>-->
+<!--        <class name="hometest.AmazonTodaysDealTest"></class>-->
+<!--        <class name="hometest.AmazonGiftTest"></class>-->
+<!--        <class name="hometest.AccountListMouseHoverTest"></class>-->
+<!--        <class name="hometest.TryPrimeMouseHoverTest"></class>-->
+<!--        <class name="hometest.AmazonAlldeptDropdownTest"></class>-->
+<!--        <class name="hometest.DropDownAmazonTest"></class>-->
+<!--        <class name="hometest.AmazonMainManuTest"></class>-->
+        <class name="hometest.AmazonProductMenuTest"></class>
+<!--        <class name="hometest.MainMenuProductTest"></class>-->
 
 
 
