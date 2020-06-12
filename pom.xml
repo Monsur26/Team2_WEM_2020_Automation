@@ -12,13 +12,13 @@
         <module>Generic</module>
         <module>Amazon</module>
         <module>CNN</module>
-        <module>CNN</module>
         <module>Verizon</module>
         <module>Progressive</module>
         <module>UnitedHealthCare</module>
         <module>TDBank</module>
         <module>Trivago</module>
         <module>JetBlue</module>
+       
     </modules>
 
     <properties>
