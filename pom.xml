@@ -148,14 +148,14 @@
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                     <suiteXmlFiles>
-                        <suiteXmlFiles>target/test-classes/AmazonTestRunner.xml</suiteXmlFiles>
+                     <!--   <suiteXmlFiles>target/test-classes/AmazonTestRunner.xml</suiteXmlFiles>
                         <suiteXmlFile>target/test-classes/CNNTestRunner.xml</suiteXmlFile>
                         <suiteXmlFile>target/test-classes/VerizonTestRunner.xml</suiteXmlFile>
                         <suiteXmlFile>target/test-classes/ProgressiveTestRunner.xml</suiteXmlFile>
                         <suiteXmlFile>target/test-classes/UHCTestRunner.xml</suiteXmlFile>
                         <suiteXmlFile>target/test-classes/TDBankTestRunner.xml</suiteXmlFile>
                         <suiteXmlFile>target/test-classes/TrivagoTestRunner.xml</suiteXmlFile>
-                        <suiteXmlFile>target/test-classes/JetBlueTestRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/JetBlueTestRunner.xml</suiteXmlFile>-->
                     </suiteXmlFiles>
                 </configuration>
 
